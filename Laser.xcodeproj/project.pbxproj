@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67205A1A29BBCF1F00D63891 /* LaserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67205A1929BBCF1F00D63891 /* LaserApp.swift */; };
+		67205A1C29BBCF1F00D63891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67205A1B29BBCF1F00D63891 /* ContentView.swift */; };
+		67205A1E29BBCF2100D63891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67205A1D29BBCF2100D63891 /* Assets.xcassets */; };
+		67205A2129BBCF2100D63891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67205A2029BBCF2100D63891 /* Preview Assets.xcassets */; };
+		67205A2B29BBCF2100D63891 /* LaserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67205A2A29BBCF2100D63891 /* LaserTests.swift */; };
+		67205A3529BBCF2100D63891 /* LaserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67205A3429BBCF2100D63891 /* LaserUITests.swift */; };
+		67205A3729BBCF2100D63891 /* LaserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67205A3629BBCF2100D63891 /* LaserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67205A2729BBCF2100D63891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67205A0E29BBCF1F00D63891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67205A1529BBCF1F00D63891;
+			remoteInfo = Laser;
+		};
+		67205A3129BBCF2100D63891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67205A0E29BBCF1F00D63891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67205A1529BBCF1F00D63891;
+			remoteInfo = Laser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67205A1629BBCF1F00D63891 /* Laser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67205A1929BBCF1F00D63891 /* LaserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserApp.swift; sourceTree = "<group>"; };
+		67205A1B29BBCF1F00D63891 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67205A1D29BBCF2100D63891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67205A2029BBCF2100D63891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67205A2629BBCF2100D63891 /* LaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67205A2A29BBCF2100D63891 /* LaserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserTests.swift; sourceTree = "<group>"; };
+		67205A3029BBCF2100D63891 /* LaserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67205A3429BBCF2100D63891 /* LaserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserUITests.swift; sourceTree = "<group>"; };
+		67205A3629BBCF2100D63891 /* LaserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67205A1329BBCF1F00D63891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2329BBCF2100D63891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2D29BBCF2100D63891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67205A0D29BBCF1F00D63891 = {
+			isa = PBXGroup;
+			children = (
+				67205A1829BBCF1F00D63891 /* Laser */,
+				67205A2929BBCF2100D63891 /* LaserTests */,
+				67205A3329BBCF2100D63891 /* LaserUITests */,
+				67205A1729BBCF1F00D63891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67205A1729BBCF1F00D63891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67205A1629BBCF1F00D63891 /* Laser.app */,
+				67205A2629BBCF2100D63891 /* LaserTests.xctest */,
+				67205A3029BBCF2100D63891 /* LaserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67205A1829BBCF1F00D63891 /* Laser */ = {
+			isa = PBXGroup;
+			children = (
+				67205A1929BBCF1F00D63891 /* LaserApp.swift */,
+				67205A1B29BBCF1F00D63891 /* ContentView.swift */,
+				67205A1D29BBCF2100D63891 /* Assets.xcassets */,
+				67205A1F29BBCF2100D63891 /* Preview Content */,
+			);
+			path = Laser;
+			sourceTree = "<group>";
+		};
+		67205A1F29BBCF2100D63891 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67205A2029BBCF2100D63891 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67205A2929BBCF2100D63891 /* LaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				67205A2A29BBCF2100D63891 /* LaserTests.swift */,
+			);
+			path = LaserTests;
+			sourceTree = "<group>";
+		};
+		67205A3329BBCF2100D63891 /* LaserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67205A3429BBCF2100D63891 /* LaserUITests.swift */,
+				67205A3629BBCF2100D63891 /* LaserUITestsLaunchTests.swift */,
+			);
+			path = LaserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67205A1529BBCF1F00D63891 /* Laser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67205A3A29BBCF2100D63891 /* Build configuration list for PBXNativeTarget "Laser" */;
+			buildPhases = (
+				67205A1229BBCF1F00D63891 /* Sources */,
+				67205A1329BBCF1F00D63891 /* Frameworks */,
+				67205A1429BBCF1F00D63891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laser;
+			productName = Laser;
+			productReference = 67205A1629BBCF1F00D63891 /* Laser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67205A2529BBCF2100D63891 /* LaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67205A3D29BBCF2100D63891 /* Build configuration list for PBXNativeTarget "LaserTests" */;
+			buildPhases = (
+				67205A2229BBCF2100D63891 /* Sources */,
+				67205A2329BBCF2100D63891 /* Frameworks */,
+				67205A2429BBCF2100D63891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67205A2829BBCF2100D63891 /* PBXTargetDependency */,
+			);
+			name = LaserTests;
+			productName = LaserTests;
+			productReference = 67205A2629BBCF2100D63891 /* LaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67205A2F29BBCF2100D63891 /* LaserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67205A4029BBCF2100D63891 /* Build configuration list for PBXNativeTarget "LaserUITests" */;
+			buildPhases = (
+				67205A2C29BBCF2100D63891 /* Sources */,
+				67205A2D29BBCF2100D63891 /* Frameworks */,
+				67205A2E29BBCF2100D63891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67205A3229BBCF2100D63891 /* PBXTargetDependency */,
+			);
+			name = LaserUITests;
+			productName = LaserUITests;
+			productReference = 67205A3029BBCF2100D63891 /* LaserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67205A0E29BBCF1F00D63891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					67205A1529BBCF1F00D63891 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					67205A2529BBCF2100D63891 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 67205A1529BBCF1F00D63891;
+					};
+					67205A2F29BBCF2100D63891 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 67205A1529BBCF1F00D63891;
+					};
+				};
+			};
+			buildConfigurationList = 67205A1129BBCF1F00D63891 /* Build configuration list for PBXProject "Laser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67205A0D29BBCF1F00D63891;
+			productRefGroup = 67205A1729BBCF1F00D63891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67205A1529BBCF1F00D63891 /* Laser */,
+				67205A2529BBCF2100D63891 /* LaserTests */,
+				67205A2F29BBCF2100D63891 /* LaserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67205A1429BBCF1F00D63891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67205A2129BBCF2100D63891 /* Preview Assets.xcassets in Resources */,
+				67205A1E29BBCF2100D63891 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2429BBCF2100D63891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2E29BBCF2100D63891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67205A1229BBCF1F00D63891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67205A1C29BBCF1F00D63891 /* ContentView.swift in Sources */,
+				67205A1A29BBCF1F00D63891 /* LaserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2229BBCF2100D63891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67205A2B29BBCF2100D63891 /* LaserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67205A2C29BBCF2100D63891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67205A3729BBCF2100D63891 /* LaserUITestsLaunchTests.swift in Sources */,
+				67205A3529BBCF2100D63891 /* LaserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67205A2829BBCF2100D63891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67205A1529BBCF1F00D63891 /* Laser */;
+			targetProxy = 67205A2729BBCF2100D63891 /* PBXContainerItemProxy */;
+		};
+		67205A3229BBCF2100D63891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67205A1529BBCF1F00D63891 /* Laser */;
+			targetProxy = 67205A3129BBCF2100D63891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67205A3829BBCF2100D63891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67205A3929BBCF2100D63891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67205A3B29BBCF2100D63891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.Laser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67205A3C29BBCF2100D63891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Laser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.Laser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67205A3E29BBCF2100D63891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.LaserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laser";
+			};
+			name = Debug;
+		};
+		67205A3F29BBCF2100D63891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.LaserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Laser";
+			};
+			name = Release;
+		};
+		67205A4129BBCF2100D63891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.LaserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laser;
+			};
+			name = Debug;
+		};
+		67205A4229BBCF2100D63891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jprbelmiro.LaserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Laser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67205A1129BBCF1F00D63891 /* Build configuration list for PBXProject "Laser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67205A3829BBCF2100D63891 /* Debug */,
+				67205A3929BBCF2100D63891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67205A3A29BBCF2100D63891 /* Build configuration list for PBXNativeTarget "Laser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67205A3B29BBCF2100D63891 /* Debug */,
+				67205A3C29BBCF2100D63891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67205A3D29BBCF2100D63891 /* Build configuration list for PBXNativeTarget "LaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67205A3E29BBCF2100D63891 /* Debug */,
+				67205A3F29BBCF2100D63891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67205A4029BBCF2100D63891 /* Build configuration list for PBXNativeTarget "LaserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67205A4129BBCF2100D63891 /* Debug */,
+				67205A4229BBCF2100D63891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67205A0E29BBCF1F00D63891 /* Project object */;
+}
